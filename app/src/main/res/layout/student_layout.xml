@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:padding="5dp">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout"/>
+
+    <RelativeLayout
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:id="@+id/student_image_view"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/student_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/student_image_view"
+            android:text="Shaid Azmin"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/student_roll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/student_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@+id/student_image_view"
+            android:text="255354"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/student_present"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/student_name"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="-22dp"
+            android:layout_toRightOf="@+id/student_roll"
+            android:text="Pr" />
+
+        <Button
+            android:id="@+id/student_absent"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/student_name"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="-22dp"
+            android:layout_toRightOf="@+id/student_present"
+            android:text="Ab" />
+
+        <Button
+            android:id="@+id/student_total_present"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/student_name"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="-22dp"
+            android:layout_toRightOf="@+id/student_absent"
+            android:text="20" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

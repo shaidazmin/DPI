@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "393620718498",
+    "firebase_url": "https://dpistudentattendance.firebaseio.com",
+    "project_id": "dpistudentattendance",
+    "storage_bucket": "dpistudentattendance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393620718498:android:50588985b491b8d1",
+        "android_client_info": {
+          "package_name": "com.techbanglapro.smartattendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393620718498-gd4tt059vggj3jjh0arkh2bc41an5cve.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techbanglapro.smartattendance",
+            "certificate_hash": "48d35cd414e72d94e480995faf842f7953999ecf"
+          }
+        },
+        {
+          "client_id": "393620718498-7mnk5mq4dqu6oicn1ijgtekie0kbgqtp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAlSwtviuVIvvZxTq1PEZCUeYkOMpBEAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393620718498-7mnk5mq4dqu6oicn1ijgtekie0kbgqtp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
